@@ -7,6 +7,7 @@
 
 }
 .sidebar{
+    position: absolute;
     background-color: rgb(175, 165, 165);
 
     height:100vh;
@@ -128,6 +129,9 @@
     align-items: center;
 }
 @media (max-width: 1615px){
+    .devpic{
+        display: none;
+    }
     /* .sidebar{
         transform: translate(-443px, 0px);
         position:absolute; */
@@ -156,6 +160,7 @@
 .intro .blogcontainer .contactform{
     margin:8px;
 }
+
 
 
 
