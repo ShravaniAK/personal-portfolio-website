@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display:flex;
+
+}
+.sidebar{
+    background-color: rgb(175, 165, 165);
+
+    height:100vh;
+    transition: transform 0.3s ease-in ;
+    
+}
+
+.sidebar nav{
+    padding:26px;
+}
+.sidebar nav li{
+
+    list-style:none;
+    font-size: 17px;
+    padding: 25px 0px;
+    font-weight: bold;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+}
+.main{
+    background-color: white;
+    width: 85vw;
+}
+.infocontainer{
+    /* background-color: violet; */
+    height: 71vh;
+    width:80vw;
+    display:flex;
+    margin:88px auto;
+    justify-content: space-around;
+}
+.devpic img{
+    height:70vh;
+    
+    
+}
+.devinfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 56px;
+}
+.name{
+    font-size: 38px;
+}
+.about{
+    font-size: 24px;
+    margin-top: 8px;
+
+}
+.moreabout{
+    font-size: 18px;
+    margin-top: 14px;
+    padding:12px 0px;
+}
+.btn{
+    border-radius: 7px;
+    background-color: rgb(74, 74, 211);
+    color:white;
+    padding: 4px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.btn:hover{
+    color: rgb(74, 74, 211);
+    background-color: white;
+}
+
+.buttons{
+    margin-top: 24px;
+}
+
+
+
+.contactform h1{
+    text-align: center;
+}
+.contactform{
+    padding-top: 100px;
+    padding:100px 160px;
+}
+.contactform form div{
+    padding: 11px 0px;
+    display: flex;
+    flex-direction: column;
+}
+#emailhelp{
+    padding:4px 0px;
+}
+#formcheck{
+ flex-direction: row;
+ padding:20px 0px;
+
+}
+#formcheck label{
+    padding: 0px 24px;
+}
+#form-check input{
+    padding: 2px 14px;
+}
+.contactform form{
+    padding:24px 0px;
+}
+.blogcontainer{
+    margin:44px;
+    display: flex;
+    flex-direction: column;
+}
+.blogitem{
+    margin:24px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 1615px){
+    /* .sidebar{
+        transform: translate(-443px, 0px);
+        position:absolute; */
+    
+}
+.sidebargo{
+    
+        transform: translate(-443px, 0px);
+        position:absolute; 
+    
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 8px;
+    left:8px;
+}
+.cross{
+    margin-left: 64px;
+
+}
+.intro{
+    margin:100px;
+}
+
+
+
+
